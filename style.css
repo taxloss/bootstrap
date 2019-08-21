@@ -1,0 +1,44 @@
+.row div{
+    padding: 10px 10px;
+    border: 1px solid;
+   }
+
+div.crazy{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    color:white;
+    border: 2px solid black;
+    font-size: 20px;
+    text-align: center;
+}
+
+#trans{
+    opacity: 0.5;
+}
+
+.crazy{
+    padding: 30px;
+    transition: transform 3s 1s,background 1s 1s;
+    -webkit-transition: transform 3s 1s,background 1s 1s;
+    -moz-transition: transform 3s 1s,background 1s 1s;
+    -ms-transition: transform 3s 1s,background 1s 1s;
+    -o-transition: transform 3s 1s,background 1s 1s;
+}
+
+.crazy:hover{
+    
+    transform: rotate(720deg) scale(2);
+    -webkit-transform: rotate(720deg) scale(2);
+    -moz-transform: rotate(720deg) scale(2);
+    -ms-transform: rotate(720deg) scale(2);
+    -o-transform: rotate(720deg) scale(2);
+    background: black;
+    border-radius:100px ;
+    -webkit-border-radius:100px ;
+    -moz-border-radius:100px ;
+    -ms-border-radius:100px ;
+    -o-border-radius:100px ;
+}
+
+ 
